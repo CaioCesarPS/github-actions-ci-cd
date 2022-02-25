@@ -1,5 +1,12 @@
 const sumNumbers = (a, b) => {
-  return a + b
+  return 'should break'
 }
 
-module.exports = sumNumbers
+const returnString = () => {
+  return 'Hello World'
+}
+
+module.exports = {
+  sumNumbers,
+  returnString
+}
