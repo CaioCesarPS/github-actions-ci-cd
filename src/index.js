@@ -1,5 +1,5 @@
 const sumNumbers = (a, b) => {
-  return 'should break'
+  return a + b
 }
 
 const returnString = () => {
