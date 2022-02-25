@@ -5,5 +5,5 @@ test('Should return a sum of two numbers', () => {
 });
 
 test('Should return a string', () => {
-  expect(returnString()).toBe(' Hello World');
+  expect(returnString()).toBe('Hello World');
 });
